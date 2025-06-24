@@ -1,0 +1,6 @@
+torch 
+requests
+distro
+transformers
+peft
+math 
