@@ -11,6 +11,8 @@ while True:
        prompt = f'How to install {text} on Linux/{distro_info}'
        response = generate_code(prompt)
        print(response)
+       if text == 0:
+            break
      except Exception as e:
          print(e.add_note)
        
